@@ -2,6 +2,8 @@
 
 A personal portfolio website built using **Next.js**, **Tailwind CSS**, and **Three.js**. This website showcases various projects, skills, and experience in a visually appealing and interactive format. It is a **work in progress**, with more features and content coming soon.
 
+This project was created by following a tutorial from **Codebucks** on YouTube. The starter files were forked from his repository, and the project has since been customized and extended to suit my personal portfolio needs.
+
 ## Features
 
 - **Responsive Design**: Built with **Tailwind CSS** for a clean, modern, and fully responsive layout.
