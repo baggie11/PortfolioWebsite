@@ -20,9 +20,6 @@ const getIcon = (icon) => {
         case "linkedin":
             return <Linkedin className = "w-full h-auto" strokeWidth = {1.5}/>
         
-        case "twitter":
-            return <Twitter className = "w-full h-auto" strokeWidth = {1.5}/>
-        
         case "resume":
             return <Notebook className = "w-full h-auto" strokeWidth = {1.5}/>
         default:

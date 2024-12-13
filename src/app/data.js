@@ -31,18 +31,12 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "EDC Website",
-    description: "Official Lakshya website",
-    demoLink: "https://github.com/vjs006/EDC_Website.git",
-  },
-  {
-    id: 4,
     name: "VolunteerConnect",
     description: "VolunteerConnect aims to bring volunteers and NGOs together to increase the power of volunteering in India. Our solution addresses the major gap between active , interested volunteers and NGOs.",
     demoLink: "https://healthbeat.example.com",
   },
   {
-    id: 5,
+    id: 4,
     name: "Lit'L",
     description: "Developed a website for Litl using the MERN stack, implementing custom design patterns to optimize performance, scalability, and maintainability. Leveraged design patterns to streamline operations.",
     demoLink: "https://github.com/CrystalFireSword/LITL-Website",

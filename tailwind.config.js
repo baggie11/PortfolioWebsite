@@ -10,6 +10,12 @@ module.exports = {
       fontFamily:{
         inter: ['var(--font-inter)']
       },
+      spacing: {
+        '112': '25.5rem', 
+        '128': '32rem', // 512px
+        '144': '36rem', // 576px
+        '160': '40rem', // 640px
+      },
       colors:{
         background: 'rgb(var(--background))',
         foreground: 'rgb(var(--foreground))',
