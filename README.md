@@ -53,24 +53,24 @@ Huge shoutout to **CodeBucks** for the amazing tutorial on YouTube! 🙌 Check o
 1. Clone this repository:
    
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git```
+   git clone https://github.com/your-username/portfolio-website.git
 
 3. Install dependencies:
    
    ```bash
-   npm install ```
+   npm install
 
 4. Run the development server
    
    ```bash
-   npm run dev```
+   npm run dev
 
 Open your browser and visit: http://localhost:3000
 
 
    Check it out live:
    
-🔗 Portfolio Website
+🔗 [Portfolio Website](https://portfolio-website-chi-rose.vercel.app/)
 
 For the best experience, view it on desktop or laptop! 💻 I'm currently working on the mobile version. 📱
 
