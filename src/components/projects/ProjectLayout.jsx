@@ -3,13 +3,18 @@ import Link from "next/link";
 import React, { forwardRef } from "react";
 
 
-
+const item = {
+  hidden : {opacity :0 , y: 100}, //start from bottom to top
+  show :{opacity:1 , y:0}
+}
 // Wrap Link with forwardRef to make it compatible with motion
 
+const NavLink = motion(Link);
 
 const ProjectLayout = ({ name, description, date, demoLink }) => {
   return (
-    <Link
+    <NavLink
+    variants = {item}
     href={demoLink}
     target={"_blank"}
     className="flex items-center relative rounded-lg overflow-hidden p-6 custom-bg h-20 w-full"
@@ -20,7 +25,7 @@ const ProjectLayout = ({ name, description, date, demoLink }) => {
       {/* Project Description */}
       <p className="text-muted text-foreground flex-grow">{description}</p>
     </div>
-  </Link>
+  </NavLink>
 
   );
 };

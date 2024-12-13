@@ -22,8 +22,6 @@ const getIcon = (icon) => {
         
         case "resume":
             return <Notebook className = "w-full h-auto" strokeWidth = {1.5}/>
-        default:
-            return <Home className = "w-full h-auto" strokeWidth = {1.5}/>
     }
 }
 
