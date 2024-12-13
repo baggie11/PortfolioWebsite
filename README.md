@@ -1,19 +1,55 @@
-# Portfolio Website 🌐
+# 🌟 **3D Portfolio Website** 🎨✨
 
-A personal portfolio website built using **Next.js**, **Tailwind CSS**, and **Three.js**. This website showcases various projects, skills, and experience in a visually appealing and interactive format. It is a **work in progress**, with more features and content coming soon.
+Welcome to my **3D Portfolio Website**! 🚀 Built with **Next.js**, **Three.js**, and **Tailwind CSS**, this is a dynamic, interactive portfolio that showcases my work and skills in a magical wizard-themed interface! 🧙‍♂️✨
 
-This project was created by following a tutorial from **Codebucks** on YouTube. The starter files were forked from his repository, and the project has since been customized and extended to suit my personal portfolio needs.
+## 🚀 **Tech Stack**:
 
-## Features ✨
+- **Next.js** 🖥️ (React framework for building web apps)
+- **Three.js** 🌍 (For 3D models and animations)
+- **Tailwind CSS** 💅 (For sleek, responsive designs)
+- **Sonner** 🔔 (For awesome toast notifications)
+- **Framer Motion** 🎞️ (For smooth animations and interactions)
+- **EmailJS** 📧 (For email form integration)
 
-- **Responsive Design** 📱: Built with **Tailwind CSS** for a clean, modern, and fully responsive layout.
-- **3D Models** 🖥️: Interactive 3D models integrated using **Three.js** to make the portfolio more engaging.
-- **Smooth Animations** 🎥: Interactive elements and transitions to enhance the user experience.
-- **Work in Progress** 🔄: Continuous updates with new sections and content to showcase skills and projects.
+## 🎨 **Project Features**:
 
-## Tech Stack 🛠️
+- **Interactive 3D Models** 🧙‍♂️🎩  
+  - Includes 3D wizard models, a wizard hat, and a magical staff!  
+  - The models are fully interactive and can move around in all directions (up, down, left, right) 😄
 
-- **Next.js** ⚛️: Framework for building server-side rendered React applications.
-- **Tailwind CSS** 🎨: Utility-first CSS framework for styling the application.
-- **Three.js** 3D: JavaScript library for creating and displaying 3D models and animations in the browser.
-- **React** ⚡: Library for building user interfaces.
+- **Responsive Design** 📱💻  
+  - Optimized for both desktop and mobile (mobile version coming soon!).
+
+- **Smooth Animations** 🎞️  
+  - Built using **Framer Motion** for smooth transitions and animations.
+
+- **Toast Notifications** 💬  
+  - Integrates **Sonner** to show real-time notifications for actions like form submissions.
+
+## 🛠️ **Resources Used**:
+
+- **3D Models**:  
+  - "Tim Mckee - Boy Wizard" by **Elbertwithane** (Creative Commons Attribution) 🧙‍♂️  
+  - "Stylized Wizard Hat" by **Enkarra** (Creative Commons Attribution) 🎩  
+  - "Wizard Staff" by **Toymancer Studio** (Creative Commons Attribution) 🪄
+
+- **AI Images** 🤖: Created with **Playground AI**  
+- **Audio** 🎶: Music by **Shiden Beats** (Music from **Pixabay**)
+
+## 🚀 **Deployment**:
+
+- **Vercel** 📦: Deployed using **Vercel** for fast and reliable hosting.
+
+## 📩 **Contact Form**:
+
+- Integrated **EmailJS** for sending messages directly through the contact form. 📧
+
+## 🎬 **Special Thanks**:
+
+Huge shoutout to **CodeBucks** for the amazing tutorial on YouTube! 🙌 Check out their channel for more fantastic tutorials! 🎥
+
+## 📌 **How to Run Locally**:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
