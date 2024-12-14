@@ -25,6 +25,7 @@ export default function Form() {
             })
         },
         (error) => {
+          console.log(error)
           toast.error("There was error sending your message. Please try again later!",{
             id : toastId
           })
