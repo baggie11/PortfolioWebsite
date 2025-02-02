@@ -25,13 +25,14 @@ const CertificationsList = ({ certifications }) => {
   animate="show" 
   className="w-6xl ml-[100px]  px-16 items-center"
 >
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40 justify-items-center">
-    {certifications.map((cert,index) => (
-      <div className=""> {/* Fixed width and height */}
-        <CertLayout key={index} {...cert} />
-      </div>
-    ))}
-  </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40 justify-items-center">
+  {certifications.map((cert, index) => (
+    <div key={cert.id || index} className=""> {/* Fixed width and height */}
+      <CertLayout {...cert} />
+    </div>
+  ))}
+</div>
+
 </motion.div>
 
   

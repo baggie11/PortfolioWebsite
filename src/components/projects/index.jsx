@@ -25,13 +25,14 @@ const ProjectList = ({ projects }) => {
   className="max-w-6xl px-6 ml-[100px]  items-center"
 >
   
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40 justify-items-center">
-    {projects.map((project, index) => (
-      <div className="w-[450px]"> {/* Fixed width and height */}
-        <ProjectLayout key={index} {...project} />
-      </div>
-    ))}
-  </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40 justify-items-center">
+  {projects.map((project, index) => (
+    <div key={project.id || index} className="w-[450px]"> {/* Fixed width and height */}
+      <ProjectLayout {...project} />
+    </div>
+  ))}
+</div>
+
 </motion.div>
 
   
