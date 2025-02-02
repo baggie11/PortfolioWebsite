@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {Github, Home , Linkedin, Notebook, Twitter,Palette, Phone ,User} from 'lucide-react'
+import {Github, Home , Linkedin, Notebook, Twitter,Palette, Phone ,User,Star} from 'lucide-react'
 
 const getIcon = (icon) => {
     switch(icon){
@@ -22,6 +22,9 @@ const getIcon = (icon) => {
         
         case "resume":
             return <Notebook className = "w-full h-auto" strokeWidth = {1.5}/>
+        
+        case "certifications":
+            return <Star className = "w-full h-auto" strokeWidth = {1.5} />
     }
 }
 

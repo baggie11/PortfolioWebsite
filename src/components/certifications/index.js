@@ -1,8 +1,9 @@
 "use client" //to make the animation work
 
 import React from "react";
-import ProjectLayout from "./ProjectLayout";
+import ProjectLayout from "../projects/ProjectLayout";
 import { motion } from "framer-motion";
+import CertLayout from "./CertLayout";
 
 
 const container = {
@@ -16,19 +17,18 @@ const container = {
   }
 }
 
-const ProjectList = ({ projects }) => {
+const CertificationsList = ({ certifications }) => {
   return (
     <motion.div 
   variants={container} 
   initial="hidden" 
   animate="show" 
-  className="max-w-6xl px-6 ml-[100px]  items-center"
+  className="w-6xl ml-[100px]  px-16 items-center"
 >
-  
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40 justify-items-center">
-    {projects.map((project, index) => (
-      <div className="w-[450px]"> {/* Fixed width and height */}
-        <ProjectLayout key={index} {...project} />
+    {certifications.map((cert, index) => (
+      <div className=""> {/* Fixed width and height */}
+        <CertLayout key={index} {...cert} />
       </div>
     ))}
   </div>
@@ -39,4 +39,4 @@ const ProjectList = ({ projects }) => {
   );
 };
 
-export default ProjectList;
+export default CertificationsList;
