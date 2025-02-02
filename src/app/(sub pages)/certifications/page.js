@@ -13,6 +13,8 @@ export default function Home() {
   return (
    <>
       <Image src = {bg} alt = "background"  className = "-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25"/>
+      <h1 className="text-4xl text-accent">Scrolls of Mastery</h1>
+      <br/><br/><br/>
      <CertificationsList certifications={certificationsData}/>
      <div className="flex items-center justify-center fixed top-20 -left-24 h-screen">
      <RenderModel>

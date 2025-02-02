@@ -54,11 +54,19 @@ export const projectsData = [
   },
   {
     id : 5,
-    name : "Password Generator",
-    description: "A Strong Password Generator is a tool designed to create highly secure, random passwords based on user preferences. It allows users to specify the desired length and choose from a combination of uppercase and lowercase letters, numbers, and special characters",
+    name : "Password Strength Checker",
+    description: "It checks the strength of the password",
     demoLink : "https://github.com/baggie11/Password_Generator.git",
     visitLink : "https://password-generator-nu-lemon.vercel.app/",
     tools : "HTML, CSS, JS"
+  },
+  {
+    id : 6,
+    name : "Language Translator",
+    description : "This Language Translator app allows you to translate text or speech between multiple languages. It supports both text input and speech recognition, offering translations powered by Google Translate. Additionally, it provides text-to-speech for listening to translations in your chosen language.",
+    demoLink : "https://github.com/baggie11/Mini-Projects.git",
+    visitLink: "",
+    tools : "Streamlit , Python"
   }
 
 ];
@@ -119,6 +127,12 @@ export const BtnList = [
     link : "/certifications",
     icon : "certifications",
     newTab : false
+  },
+  {
+    label : "Blog",
+    link : "https://bagsspace.hashnode.dev/",
+    icon : "blog",
+    newTab : true
   }
 ];
 
