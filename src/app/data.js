@@ -32,8 +32,8 @@ export const projectsData = [
     description: "Set up and managed the database using Supabase, ensuring efficient data storage and retrieval. Developed the backend architecture, integrating authentication with Google Auth and leveraging Azure AI. Seamlessly integrated the backend with the frontend for smooth communication.",
     demoLink: "",
     visitLink: "",
-    tools: "Next.js, Google Auth, Azure AI, Supabase",
-    time: "Jan 2025"
+    tools: "Next.js, Google Auth, Azure AI, Supabase, Nodejs",
+    time: "Jan 2025 - Present"
   },
   {
     id: 3,
