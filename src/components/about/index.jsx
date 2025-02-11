@@ -1,4 +1,5 @@
 import React from "react";
+import { roles } from "@/app/data";
 import ItemLayout from "./ItemLayout";
 
 const AboutDetails = () => {
@@ -19,10 +20,10 @@ Beyond academics, my love for reading and dancing keeps me creative and grounded
                 <ItemLayout className={'col-span-4 row-span-2'}>
                 <div className="">
                     <h2 className="font-bold text-2xl text-accent">Education</h2><br/>
-                <p>SSN COLLEGE OF ENGINEERING </p>
+                <p className="font-bold ">SSN COLLEGE OF ENGINEERING</p>
                   <p>B.Tech Information Technology</p>
                 <p>Grade : 8.886</p><br/>
-                <p>D.A.V School , Adambakkam </p>
+                <p className="font-bold">D.A.V School , Adambakkam </p>
                   <p>Computer Science Stream</p>
                 <p>Grade : 97%</p>
 
@@ -42,6 +43,21 @@ Beyond academics, my love for reading and dancing keeps me creative and grounded
                 
             </div>
             <br/><br/>
+            <ItemLayout>
+                <h2 className="text-2xl text-accent font-bold">Roles and Responsibilities</h2>
+                <br/>
+                {roles.map((role) => (
+                    <div key = {role.id}>
+                        <p>{role.org}</p>
+                        <p>{role.name}</p>
+                        <p>{role.time || ""}</p>
+                        <p>{role.description}</p>
+                    </div>
+                ))}
+                <div>
+                    
+                </div>
+            </ItemLayout>
             
 
         </section>
