@@ -63,14 +63,6 @@ export const projectsData = [
   },
   {
     id: 6,
-    name: "Password Strength Checker",
-    description: "It checks the strength of the password.",
-    demoLink: "https://github.com/baggie11/Password_Generator.git",
-    visitLink: "https://password-generator-nu-lemon.vercel.app/",
-    tools: "HTML, CSS, JS"
-  },
-  {
-    id: 7,
     name: "Language Translator",
     description: "This Language Translator app allows you to translate text or speech between multiple languages. It supports both text input and speech recognition, offering translations powered by Google Translate. Additionally, it provides text-to-speech for listening to translations in your chosen language.",
     demoLink: "https://github.com/baggie11/Mini-Projects.git",
