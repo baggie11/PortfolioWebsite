@@ -32,7 +32,7 @@ export const projectsData = [
     description: "Set up and managed the database using Supabase, ensuring efficient data storage and retrieval. Developed the backend architecture, integrating authentication with Google Auth and leveraging Azure AI. Seamlessly integrated the backend with the frontend for smooth communication.",
     demoLink: "",
     visitLink: "https://nest-sense-ai.vercel.app/",
-    tools: "Next.js, Google Auth, Azure AI, Supabase, Nodejs",
+    tools: "Next.js, Azure AI, Supabase, Nodejs",
     time: "Jan 2025 - Present"
   },
   {

@@ -17,7 +17,7 @@ const ProjectLayout = ({ name, description, demoLink, visitLink, tools, time }) 
       variants={item}
       initial="hidden"
       animate="show"
-      className="max-w-sm w-full bg-transparent custom-bg rounded-lg shadow-lg p-4 h-[400px] flex flex-col justify-between"
+      className="max-w-sm w-full bg-transparent custom-bg rounded-lg shadow-lg p-4 h-[450px] flex flex-col justify-between"
     >
       {/* Project Name */}
       <h2 className="text-2xl font-bold text-accent">{name}</h2>
