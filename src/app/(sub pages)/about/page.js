@@ -12,14 +12,15 @@ export default function Home() {
   return (
    <>
       <Image src = {bg} alt = "background"  className = "-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25"/>
-     <div className="w-full h-screen absolute top-1/3 -translate-y-1/2 left-0">
+     {/* <div className="w-full h-screen absolute top-1/3 -translate-y-1/2 left-0">
      <RenderModel>
       <Hat/>
      </RenderModel>
-     </div>
-     <div className="relative w-full h-screen flex flex-col items-center justify-center">
-     <div className="absolute flex flex-col items-center text-center top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-      <h1 className="font-bold text-8xl text-accent">Bagavati Narayanan</h1>
+     </div> */}
+     <div className="relative w-full h-screen justify-center">
+     <div className="absolute flex flex-col  text-center left-[200px] top-[200px] -translate-y-1/2 -translate-x-1/2">
+      <h1 className="font-bold text-6xl text-accent">Hii!!</h1>
+      <h2 className="font-bold text-4xl text-accent left-[250px]">I'm Bagavati</h2>
      </div>
      </div>
      

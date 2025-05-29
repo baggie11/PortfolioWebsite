@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {Github, Home , Linkedin, Notebook, Twitter,Palette, Phone ,User,Star, Pen} from 'lucide-react'
+import {Github, Home , Linkedin, Notebook, Twitter,Palette, Phone ,User,Star, Pen,HandHelping,Medal, Ticket} from 'lucide-react'
 
 const getIcon = (icon) => {
     switch(icon){
@@ -28,6 +28,8 @@ const getIcon = (icon) => {
         
         case "blog":
             return <Pen className = "w-full h-auto" strokeWidth = {1.5} />
+        
+
         
     }
 }

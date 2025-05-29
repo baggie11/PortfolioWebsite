@@ -24,7 +24,8 @@ export const projectsData = [
     demoLink: "https://github.com/baggie11/Mentorship_System.git",
     visitLink: "",
     tools: "HTML, CSS, JS, Django, MySQL",
-    time: "April 2023 - Jun 2023"
+    time: "April 2023 - Jun 2023",
+    image :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzwUaz21bWLRDQAZuYAWsDh_KrnJrnSB0-g&s"
   },
   {
     id: 2,
@@ -36,7 +37,16 @@ export const projectsData = [
     time: "Jan 2025 - Present"
   },
   {
-    id: 3,
+    id : 3,
+    name: "Kids Story Haven",
+    description : "A storytelling website using Next.js and Tailwind CSS, featuring over 2000 short stories categorized by age groups. It's designed for both parents who want to narrate stories to their children and kids who want to explore stories on their own, enhancing their reading and vocabulary in a fun, engaging way. To make the experience even better, I integrated an AI assistant powered by Gemini to help with word meanings and explanations. There's also a Pronunciation Agent, built using the Web Speech API, so kids can hear how words are pronounced and practice along",
+    demoLink : "https://github.com/baggie11/Kids_Story_Haven.git",
+    visitLink : "https://kids-story-haven.vercel.app/",
+    tools : "Next.js,Tailwind CSS, Gemini API, Web Speech API",
+    time : "May 2025 - May 2025"
+  },
+  {
+    id: 4,
     name: "Lit'L",
     description: "Developed a full-stack website for Litl using the MERN stack, optimizing performance, scalability, and maintainability with custom design patterns, while enhancing efficiency and user experience through streamlined operations and a robust backend.",
     demoLink: "https://github.com/CrystalFireSword/LITL-Website",
@@ -45,7 +55,7 @@ export const projectsData = [
     time: "Nov 2023 - Present"
   },
   {
-    id: 4,
+    id: 5,
     name: "Pyxis",
     description: "Developed Pyxis, an assistive app for visually challenged users, using Python, OpenCV, YOLO, and LLama. Integrated object detection, navigation, AI, and text-to-speech for a hands-free, independent navigation experience, with continuous improvements.",
     demoLink: "https://github.com/baggie11/Pyxis_Final.git",
@@ -54,7 +64,7 @@ export const projectsData = [
     time: "May 2023 - Present"
   },
   {
-    id: 5,
+    id: 6,
     name: "Hangman Game",
     description: "A fun and interactive Hangman game built with a frontend interface. You have 6 tries to guess the word correctly. If you can't guess it within the given attempts, you lose!",
     demoLink: "https://github.com/baggie11/Hangman_Game.git",
@@ -62,7 +72,7 @@ export const projectsData = [
     tools: "HTML, CSS, JS"
   },
   {
-    id: 6,
+    id: 7,
     name: "Language Translator",
     description: "This Language Translator app allows you to translate text or speech between multiple languages. It supports both text input and speech recognition, offering translations powered by Google Translate. Additionally, it provides text-to-speech for listening to translations in your chosen language.",
     demoLink: "https://github.com/baggie11/Mini-Projects.git",
@@ -144,7 +154,9 @@ export const BtnList = [
     link : "https://bagsspace.hashnode.dev/",
     icon : "blog",
     newTab : true
-  }
+  },
+ 
+
 ];
 
 

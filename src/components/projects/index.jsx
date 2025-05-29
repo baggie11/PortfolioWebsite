@@ -22,12 +22,12 @@ const ProjectList = ({ projects }) => {
   variants={container} 
   initial="hidden" 
   animate="show" 
-  className="max-w-6xl px-6 ml-[100px]  items-center"
+  className="max-w px-6 ml-[100px]  items-center"
 >
   
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-40 justify-items-center">
+<div className="">
   {projects.map((project, index) => (
-    <div key={project.id || index} className="w-[450px]"> {/* Fixed width and height */}
+    <div key={project.id || index} className="w-full"> 
       <ProjectLayout {...project} />
     </div>
   ))}
